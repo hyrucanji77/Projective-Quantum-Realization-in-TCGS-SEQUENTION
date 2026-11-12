@@ -1,0 +1,27 @@
+Projective Quantum Realization in TCGS–SEQUENTION:
+Anomalies, Global Coherence, and Invariant Readout
+
+Copyright © 2026 Henry Arellano-Peña.
+
+The article and accompanying original documentation in this repository are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+License summary: https://creativecommons.org/licenses/by/4.0/
+License legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+When reusing this material, provide appropriate attribution, identify the
+license, link to it, and indicate whether changes were made, in accordance
+with the license terms. The linked legal code governs this notice.
+
+Suggested attribution:
+Henry Arellano-Peña (2026), Projective Quantum Realization in TCGS–SEQUENTION:
+Anomalies, Global Coherence, and Invariant Readout, manuscript dated
+12 November 2026, licensed under CC BY 4.0.
+
+Author contact: harellano@unal.edu.co
+
+This license does not replace the copyright or permissions of separately
+authored works cited in the bibliography or included in the accompanying
+reference collection. Those works retain the licenses and copyright notices
+specified in that collection.
