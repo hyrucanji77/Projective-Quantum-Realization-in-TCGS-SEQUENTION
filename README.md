@@ -11,3 +11,16 @@ The paper studies when a globally smooth profile of quantum density operators ad
 The manuscript also gives sufficient conditions for Born weights through probability transfer across calibrated POVMs, including for qubits, and illustrates unique but unstable reconstruction from harmonic boundary data. These results apply under the stated realization and measurement hypotheses.
 
 **Suggested citation.** Henry Arellano-Peña (2026), *Projective Quantum Realization in TCGS–SEQUENTION: Anomalies, Global Coherence, and Invariant Readout*, version 4, manuscript dated 12 November 2026.
+
+## Reproduce the manuscript checks
+
+The [Python verification script](verify_examples.py) runs the 15 symbolic check groups for version 4. These include the source-dependent Chern number, the qubit POVM counterexample, and the harmonic reconstruction example.
+
+From the repository root, install the pinned dependency and run the script:
+
+```bash
+python -m pip install -r requirements.txt
+python verify_examples.py --json
+```
+
+[Recorded verification results](verification_results.json)
