@@ -1,0 +1,287 @@
+{
+  "status": "passed",
+  "sympy_version": "1.14.0",
+  "arithmetic": "exact symbolic",
+  "results": [
+    {
+      "name": "Hopf connection and first Chern number",
+      "north_A_phi": "-sin(theta/2)**2",
+      "south_A_phi": "cos(theta/2)**2",
+      "F_theta_phi": "-sin(theta)/2",
+      "c1_integral": "-1"
+    },
+    {
+      "name": "Projectors and global phase independence",
+      "rank": 1,
+      "trace": 1,
+      "patches_agree": true
+    },
+    {
+      "name": "Pauli cocycle and tensor-square cancellation",
+      "group_order": 4,
+      "commutator_phase": "-1",
+      "tensor_square_multiplier": "1",
+      "density_action_composes": true
+    },
+    {
+      "name": "Powered-weight counterexample",
+      "q_1_3_2_3": [
+        "1/5",
+        "4/5"
+      ],
+      "fine_measurement": [
+        "2/3",
+        "1/6",
+        "1/6"
+      ],
+      "coarse_measurement": [
+        "1/2",
+        "1/2"
+      ],
+      "rotated_complement": [
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      "same_event_different_probability": true
+    },
+    {
+      "name": "Finite normal-jet vanishing",
+      "normal_orders_vanishing": [
+        0,
+        1,
+        2
+      ],
+      "arbitrary_smooth_multiplier": true,
+      "third_derivative_at_a": "6*(a - b)**3*h(x, a)",
+      "nonzero_example_third_derivative_at_0": "-6"
+    },
+    {
+      "name": "Positive reflection-kernel Gram identity",
+      "spectral_modes": 2,
+      "sample_times": 3,
+      "weighted_sum_of_real_squares_nonnegative": true,
+      "assumptions": "E_j, w_j, t_k >= 0; coefficients arbitrary complex"
+    },
+    {
+      "name": "Finite-dimensional index and kernel jump",
+      "s_nonzero": {
+        "kernel": 0,
+        "cokernel": 0,
+        "index": 0
+      },
+      "s_zero": {
+        "kernel": 1,
+        "cokernel": 1,
+        "index": 0
+      }
+    },
+    {
+      "name": "Source functional and selector-indexed qubit profile",
+      "cube_weight": "2*x1 on [0,1]^3",
+      "cube_source_functional": "beta + 19/6",
+      "simultaneous_source_reparametrization_invariant": true,
+      "selector_rotation": "phi -> phi + alpha(Xi)",
+      "density_fibers_fixed": "D(C^2)",
+      "fixed_source_eigenline_c1_integral": "-1",
+      "scope": "Explicit conditional scalar/readout realization; no source-field admissibility inferred"
+    },
+    {
+      "name": "Qubit POVM transfer failure and tomographic identification",
+      "fine_born": [
+        "1/2",
+        "1/4",
+        "1/4"
+      ],
+      "fine_powered": [
+        "2/3",
+        "1/6",
+        "1/6"
+      ],
+      "coarse_powered": [
+        "1/2",
+        "1/2"
+      ],
+      "unchanged_effect_powered_probability_difference": "1/6",
+      "tomographic_effects": [
+        "I",
+        "(I+sigma_x)/2",
+        "(I+sigma_y)/2",
+        "(I+sigma_z)/2"
+      ],
+      "effect_span_determinant": "2",
+      "scope": "Exact finite counterexample and descriptor identification; transfer theorem proved in text"
+    },
+    {
+      "name": "Harmonic reconstruction and fixed-order trace instability",
+      "laplacian": "0",
+      "dirichlet_trace": "0",
+      "normal_trace": "n*sin(n*x1)/sinh(n*a)",
+      "remote_trace": "sin(n*x1)",
+      "remote_uniform_norm": "1",
+      "verified_mixed_jet_orders": {
+        "normal": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "tangential": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "general_derivative_recurrences": true,
+      "fixed_order_bound": "n^m/sinh(n*a) <= 2*n^m*exp(-n*a)/(1-exp(-2*a)), n>=1, a>0",
+      "fixed_order_logarithmic_limit": "-oo",
+      "fixed_order_trace_bound_limit": "0",
+      "scope": "Declared periodic harmonic scalar class; w is geometric, not temporal"
+    },
+    {
+      "name": "Exact source redundancy and nonlinear readout witnesses",
+      "rotation_null_plane": "(x,y)",
+      "observed_coordinate": "z",
+      "L": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "L_U_equals_L": true,
+      "range_U_minus_I_in_kernel_L": true,
+      "positive_sector_fixed_pointwise": true,
+      "origin_gradients": {
+        "quadratic": [
+          0,
+          0
+        ],
+        "quartic": [
+          0,
+          0
+        ]
+      },
+      "origin_hessians": {
+        "quadratic": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "quartic": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "circle_second_order_terms": {
+        "hessian": "2",
+        "acceleration": "-2",
+        "sum": "0"
+      },
+      "scope": "Exact finite witnesses; general domain-sensitive operator and constitutive claims require the hypotheses and proofs in the text"
+    },
+    {
+      "name": "Bell-state obstruction to common exact recovery",
+      "states": [
+        "(|00>+|11>)/sqrt(2)",
+        "(|00>-|11>)/sqrt(2)"
+      ],
+      "inner_product": "0",
+      "common_marginal": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "projector_difference_squared_Hilbert_Schmidt_norm": "2",
+      "difference_eigenvalues": [
+        "1",
+        "-1",
+        "0",
+        "0"
+      ],
+      "scope": "Exact finite noninjectivity witness; no single-valued recovery can return both projectors from their identical marginal"
+    },
+    {
+      "name": "Invisible direct-sum sector in a compressed resolvent",
+      "spectral_parameter": "q^2, q>0",
+      "observed_operator": "diag(1,4)",
+      "observed_probe": [
+        1,
+        1
+      ],
+      "extended_operators": [
+        "diag(1,4,9)",
+        "diag(1,4,16)"
+      ],
+      "extended_probe": [
+        1,
+        1,
+        0
+      ],
+      "common_response": "1/(q^2+1)+1/(q^2+4)",
+      "extended_minus_observed_full_trace": "1/(q^2+9)",
+      "hidden_spectrum_full_trace_difference": "7/((q^2+9)*(q^2+16))",
+      "probe_generated_ranks": {
+        "observed": 2,
+        "extended": 2
+      },
+      "ambient_dimensions": {
+        "observed": 2,
+        "extended": 3
+      },
+      "scope": "Exact positive finite fixture for the general block identity; the manuscript supplies the general operator argument"
+    },
+    {
+      "name": "Conditional common-kernel accessibility and coherence",
+      "success_norm": "eta_acc=(1+xi)/4",
+      "raw_overlap": "xi*(1+exp(-I*theta))/4",
+      "normalized_overlap": "xi*(1+exp(-I*theta))/(1+xi)",
+      "eliminated_descriptor": "gamma=(1-1/(4*eta_acc))*(1+exp(-I*theta))",
+      "joint_restriction": "4*eta_acc*gamma=(4*eta_acc-1)*(1+exp(-I*theta))",
+      "domain": "0<=xi<=1; theta real",
+      "accessibility_domain": "1/4<=eta_acc<=1/2",
+      "complete_domain_certificate": "xi=r^2/(1+r^2), r>=0, plus xi=1 endpoint",
+      "gram_positivity": "1-|gamma|^2=(1+4*r^2+4*r^4*sin(theta/2)^2)/(1+2*r^2)^2",
+      "success_failure_isometry": true,
+      "scope": "Conditional on the declared square-root lift, orthonormal detector basis and quantum instrument convention; no derivation of Hilbert structure or Born weights"
+    },
+    {
+      "name": "Source-conditioned sphere degree and rotation-profile periodicity",
+      "normalized_sphere_map": "(n+a*e3)/sqrt(1+a^2+2*a*n3)",
+      "excluded_functional_values": [
+        -1,
+        1
+      ],
+      "oriented_area_density": "(source_a*cos(theta) + 1)*sin(theta)/(source_a**2 + 2*source_a*cos(theta) + 1)**(3/2)",
+      "chern_integral_primitive": "(source_a + source_u)/sqrt(source_a**2 + 2*source_a*source_u + 1)",
+      "chern_number_by_full_interval": {
+        "-1<a<1": "-1",
+        "a>1": "0",
+        "a<-1": "0"
+      },
+      "source_dependent_projector_identity": true,
+      "rotation_only_profile_period": "2*pi",
+      "scope": "Source conditioning through a specified selector readout; degree constant on continuous admissible map families; no field admissibility or realization rule derived from A1--A4"
+    }
+  ]
+}
